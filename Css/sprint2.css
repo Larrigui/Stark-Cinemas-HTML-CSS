@@ -11,7 +11,7 @@ header{
   margin-bottom:20px;
 }
 
-.wrapper{
+.cabeza{
   width:90%;
   max-width:1000%;
   margin:auto;
@@ -47,15 +47,7 @@ header nav a{
 }
 
 header nav a:hover{
-  background:#f56f3a;
-}
-
-.contenido{
-  padding-top:90px;
-}
-
-p{
-  color:#f2f2f2;
+  background:#98f1ed;
 }
 
 .perfil{
@@ -79,4 +71,39 @@ input{
   outline: 0px;
   width: 300px;
   color:#f2f2f2;
+}
+
+.slider{
+  width: 800px;
+  margin: auto;
+  padding-top: 110px;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 800%;
+
+  animation: cambio 20s infinite alternate;
+  animation-timing-function: ease-in;
+}
+.slider li{
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+}
+
+@keyframes cambio{
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  100% {margin-left: -300%;}
 }
