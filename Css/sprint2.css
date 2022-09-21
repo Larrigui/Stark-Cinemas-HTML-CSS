@@ -52,10 +52,15 @@ header nav a:hover{
 
 .contenido{
   padding-top:90px;
+  height: 50%;
+  width: 100px;
+  border: #110202;
 }
 
 p{
-  color:#f2f2f2;
+  color:#110202;
+  width: 80%;
+  border: 1px solid red;
 }
 
 .perfil{
@@ -65,7 +70,7 @@ p{
 
 .logo{
   float:left;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .main{
   border: 02px solid rgb(255, 254, 254);
@@ -79,4 +84,10 @@ input{
   outline: 0px;
   width: 300px;
   color:#f2f2f2;
+}
+.Pie{
+  background: #f56f3a;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
 }
