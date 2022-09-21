@@ -48,6 +48,7 @@ header nav a{
 
 header nav a:hover{
   background:#98f1ed;
+  color:black;
 }
 
 .perfil{
@@ -109,4 +110,23 @@ input{
 
   85% {margin-left: -400%;}
   100% {margin-left: -400%;}
+}
+
+table{
+  margin-top: 20px;
+  margin-left: 45px;
+}
+table h2{
+  margin-left: 105px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  width:100%;
+  overflow:hidden;
+  background:rgb(2, 5, 54);
+}
+.logo1{
+  padding: 25px;
 }
