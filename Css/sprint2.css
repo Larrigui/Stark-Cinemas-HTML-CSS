@@ -47,8 +47,25 @@ header nav a{
 }
 
 header nav a:hover{
+<<<<<<< HEAD
   background:#98f1ed;
   color:black;
+=======
+  background:#f56f3a;
+}
+
+.contenido{
+  padding-top:90px;
+  height: 50%;
+  width: 100px;
+  border: #110202;
+}
+
+p{
+  color:#110202;
+  width: 80%;
+  border: 1px solid red;
+>>>>>>> main
 }
 
 .perfil{
@@ -58,7 +75,7 @@ header nav a:hover{
 
 .logo{
   float:left;
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .main{
   border: 02px solid rgb(255, 254, 254);
@@ -73,6 +90,7 @@ input{
   width: 300px;
   color:#f2f2f2;
 }
+<<<<<<< HEAD
 
 .slider{
   width: 800px;
@@ -130,3 +148,11 @@ footer{
 .logo1{
   padding: 25px;
 }
+=======
+.Pie{
+  background: #f56f3a;
+  width: 60%;
+  padding: 20px;
+  text-align: center;
+}
+>>>>>>> main
