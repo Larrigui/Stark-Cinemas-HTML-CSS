@@ -47,6 +47,10 @@ header nav a{
 }
 
 header nav a:hover{
+<<<<<<< HEAD
+  background:#98f1ed;
+  color:black;
+=======
   background:#f56f3a;
 }
 
@@ -61,6 +65,7 @@ p{
   color:#110202;
   width: 80%;
   border: 1px solid red;
+>>>>>>> main
 }
 
 .perfil{
@@ -85,9 +90,69 @@ input{
   width: 300px;
   color:#f2f2f2;
 }
+<<<<<<< HEAD
+
+.slider{
+  width: 800px;
+  margin: auto;
+  padding-top: 110px;
+  overflow: hidden;
+}
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 800%;
+
+  animation: cambio 20s infinite alternate;
+  animation-timing-function: ease-in;
+}
+.slider li{
+  list-style: none;
+}
+.slider img{
+  width: 100%;
+}
+
+@keyframes cambio{
+  0% {margin-left: 0;}
+  10% {margin-left: 0;}
+
+  15% {margin-left: -100%;}
+  35% {margin-left: -100%;}
+
+  40% {margin-left: -200%;}
+  60% {margin-left: -200%;}
+
+  65% {margin-left: -300%;}
+  80% {margin-left: -300%;}
+
+  85% {margin-left: -400%;}
+  100% {margin-left: -400%;}
+}
+
+table{
+  margin-top: 20px;
+  margin-left: 45px;
+}
+table h2{
+  margin-left: 105px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+footer{
+  width:100%;
+  overflow:hidden;
+  background:rgb(2, 5, 54);
+}
+.logo1{
+  padding: 25px;
+}
+=======
 .Pie{
   background: #f56f3a;
   width: 60%;
   padding: 20px;
   text-align: center;
 }
+>>>>>>> main
