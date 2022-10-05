@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarkCinema</title>
+    <script src="../js/form.js"></script>
+    <link rel="stylesheet" href="../Css/CreateC.css">
+    <link rel="icon" href="../Photo/Logo.ico">
+</head>
+
+<body>
+    <header>
+        <div class="cabeza">
+            <a href="Home.html"><img class="logo" src="../Photo/Logo.png" width="75px" height="50px"></a>
+            <nav>
+                <a href="#" class="algo">Cartelera</a>
+                <a href="#" class="algo">Pronto</a>
+                <a href="#" class="algo">Prox. Estrenos</a>
+                <input class="main" type="search" placeholder="Escribe para buscar">
+                <a href="Login.html"><img class="perfil" src="../Photo/Perfil.png" width="50px" height="50px"></a>
+            </nav>
+        </div>
+    </header>
+    <div class="formulario">
+        <h1>Crear Cuenta</h1>
+        <form method="post" name="formCuenta" id="formCuenta" onsubmit="validar_CreateC();">
+            <input type="text" class="user" name="user" id="user">
+            <label for="" class="userl">Nombre de Usuario</label>
+            <input type="email" class="mail" name="userMail" id="userMail">
+            <label for="" class="maill">Correo Electronico</label>
+            <input type="email" class="cmail" name="cuseMail" id="cuserMail">
+            <label for="" class="cmaill">Confirmar Correo Electronico</label>
+            <input type="password" class="password" id="password">
+            <label for="" class="passwordl">Contraseña<img src="../photo/mostrar_ocultar.png" class="mostrar"
+                    alt="mostrarContrasena" width="20" height="20" onmouseenter="mostrarContrasena()"
+                    onmouseleave="mostrarContrasena()"></label>
+
+            <p>Declaro haber leído y aceptar las condiciones generales del uso del portal y la normativa sobre
+                protección de datos.</p>
+            <label class="container">
+                <input type="checkbox" checked="checked">
+                <div class="checkmark"></div>
+            </label>
+
+            <button class="resgitrar" type="submit" value="Registrar">Registrar</button>
+            <div class="registrarse">
+                <a href="Login.html">Regresar</a>
+            </div>
+        </form>
+        <script src="../js/CreateC.js"></script>
+    </div>
+</body>
+
+</html>
